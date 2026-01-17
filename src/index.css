@@ -1,0 +1,7 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+a { text-decoration: none; color: inherit; }
+.container { max-width: 960px; margin: auto; padding: 1rem; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); }
+.btn { padding: .5rem 1rem; border: 1px solid #333; background:#fff; cursor:pointer; }
+.btn.primary { background:#333; color:#fff; }
+input, select { padding:.5rem; }
